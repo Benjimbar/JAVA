@@ -1,5 +1,8 @@
 package TitaniumBEN.holamundo;
- // Upper Camel Case para el nombre de clases
+
+import jdk.nashorn.internal.ir.CaseNode;
+
+// Upper Camel Case para el nombre de clases
 public class HolaMundo {
 
 	public static void main(String[] args) {
@@ -105,6 +108,40 @@ public class HolaMundo {
 		System.out.println("!n-->" + (!n));
 		System.out.println("!m -->" + (!m));
 		
+		// If/else
+		
+		int t=5;
+		if (t<5) {
+			System.out.println("T es menor");
+			
+		}
+		else if (t<5) {
+			System.out.println("T es mayor");
+			
+		}
+		else  {
+			System.out.println("T es igual");
+		}
+		byte mes = 1;
+		
+		switch (mes) {
+			case 1:
+				System.out.println("Enero");
+				break;
+			case 2:
+				System.out.println("Enero");
+				break;
+		
+		}
+		
+		//While
+		
+		byte var = 0;
+		while (++var <5) {
+			System.out.print(var);
+			
+		}
+		//DoWhile
 		
 	}
 
