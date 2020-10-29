@@ -138,11 +138,22 @@ public class HolaMundo {
 		
 		byte var = 0;
 		while (++var <5) {
-			System.out.print(var);
+			System.out.println(var);
 			
 		}
-		//DoWhile
 		
+		System.out.println();
+		//DoWhile
+		int [] numeros = new int [5];
+		for (int f = 0; f <5; f++) {
+			numeros [f] = f;
+			System.out.println("numeros["+f+"]");
+			
+		}
+		
+		for (int k : numeros) {
+			System.out.println(k);
+		}
 	}
 
 }
