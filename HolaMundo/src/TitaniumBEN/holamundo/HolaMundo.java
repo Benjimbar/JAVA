@@ -1,5 +1,5 @@
 package TitaniumBEN.holamundo;
-
+ // Upper Camel Case para el nombre de clases
 public class HolaMundo {
 
 	public static void main(String[] args) {
@@ -23,6 +23,15 @@ public class HolaMundo {
 		//Boolean
 		boolean isVisible = true;
 		
+		//Variables
+		
+		int $variable = 2;
+		
+		//Constantes 
+		int VALOR_MAX = 1;
+		
+		//Lower Camel Case se utiliza para la declaración
+		// de variables y métodos 
 		
 	}
 
