@@ -33,6 +33,46 @@ public class HolaMundo {
 		//Lower Camel Case se utiliza para la declaración
 		// de variables y métodos 
 		
+		
+		//Casting
+		
+		byte b = 6; 	//implicit
+		short c = b;
+		
+		int i = 1;
+		double d = 2.5;
+		i = (int) d;
+		
+		int codigo = 1998;
+		char codigoASCII = (char) codigo;
+		System.out.println(codigoASCII);
+		
+		
+		//Arrays
+		int[] arregloInt = new int [3];
+		double arregloDouble[];
+		
+		int [][] array2D = new int [2][3];// caben 6 datos
+		int [][][] array3D = new int [3][3][2]; //cabel 18 datos
+		int [][][][] array4D = new int [1][2][3][4];
+		
+		char [][] nam = { {}, {}  };
+		
+		//Finding the monkey
+		
+		char [] names = new char [4];
+		names[0] = 'h';
+		names[1] = 'o';
+		names[2] = 'l';
+		names[3] = 'a';
+		System.out.println(names[0]);
+		System.out.println(names[1]);
+		System.out.println(names[2]);
+		System.out.println(names[3]);
+		
+		char [][][][] monkey = new char [2][3][2][2];
+		monkey[1][0][0][1] = 'M';
+		System.out.println(monkey [1][0][0][1]);
 	}
 
 }
