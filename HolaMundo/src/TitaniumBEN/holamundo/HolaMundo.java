@@ -88,6 +88,24 @@ public class HolaMundo {
 		boolean True = ope<10;
 		System.out.println(True);
 		
+		//Operadores relacionales
+		int q = 8;
+		int p = 5;
+		System.out.println("q>p -->" + (q>p));
+		System.out.println("q<p -->" + (q<p));
+		
+		
+		//Operadores lógicos
+		
+		boolean n = false;
+		boolean m = true;
+		
+		System.out.println("n && m -->" + (n && m));
+		System.out.println("n || m -->" + (n || m));
+		System.out.println("!n-->" + (!n));
+		System.out.println("!m -->" + (!m));
+		
+		
 	}
 
 }
