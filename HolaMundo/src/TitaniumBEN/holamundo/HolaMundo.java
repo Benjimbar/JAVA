@@ -73,6 +73,21 @@ public class HolaMundo {
 		char [][][][] monkey = new char [2][3][2][2];
 		monkey[1][0][0][1] = 'M';
 		System.out.println(monkey [1][0][0][1]);
+		
+		//Operadores
+		
+		byte ope = 0;
+		System.out.println(ope);
+		++ ope;
+		System.out.println(ope);
+		ope ++;
+		System.out.println(ope);
+		ope --;
+		System.out.println(ope);
+		
+		boolean True = ope<10;
+		System.out.println(True);
+		
 	}
 
 }
