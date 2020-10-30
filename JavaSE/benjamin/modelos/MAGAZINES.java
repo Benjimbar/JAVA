@@ -2,12 +2,25 @@ package benjamin.modelos;
 
 import java.util.Date;
 
-public class MAGAZINES {
+public class MAGAZINES extends Publication {
 	
-	int id;
-	String title;
-	Date editionDate;
-	String editorial;
-	String [] authors;
-
+	//variables
+	private int id;
+	
+	//Constructor
+	
+	public MAGAZINES(String title, Date editionDate, String editorial, String[] authors) {
+		super(title, editionDate, editorial, authors);
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	public int getId() {
+		return id;
+	}
+	
+	
+	
+	
+	
 }
